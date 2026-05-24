@@ -19,7 +19,9 @@ const Navbar = () => {
           <div className={`nav-links ${isOpen ? 'active' : ''}`}>
             <NavLink to="/" onClick={() => setIsOpen(false)}>Home</NavLink>
             <NavLink to="/normalfare" onClick={() => setIsOpen(false)}>Fares</NavLink>
+            <NavLink to="/faretable" onClick={() => setIsOpen(false)}>Table</NavLink>
             <NavLink to="/findroutes" onClick={() => setIsOpen(false)}>Routes</NavLink>
+            <NavLink to="/stops" onClick={() => setIsOpen(false)}>Stops</NavLink>
             <NavLink to="/normalwaytimes" onClick={() => setIsOpen(false)}>Timetables</NavLink>
             <NavLink to="/standnumbers" onClick={() => setIsOpen(false)}>Stands</NavLink>
             <NavLink to="/about" onClick={() => setIsOpen(false)}>About</NavLink>
