@@ -10,6 +10,7 @@ import {
   MessageCircle,
   Route,
   Shield,
+  Table,
 } from 'lucide-react'
 
 const Home = () => {
@@ -165,12 +166,34 @@ const Home = () => {
             </div>
             <div className="feature-card-large">
               <div className="feature-image">
+                <Table size={64} className="placeholder-icon" />
+              </div>
+              <h3>📊 Compare Fare Stages</h3>
+              <p>Look up any official fare stage and compare normal, semi-luxury, luxury, and super luxury prices.</p>
+              <Link to="/faretable" className="feature-link">
+                Open Fare Table
+                <ArrowRight size={16} />
+              </Link>
+            </div>
+            <div className="feature-card-large">
+              <div className="feature-image">
                 <Clock size={64} className="placeholder-icon" />
               </div>
               <h3>⏱️ Check Timetable Guidance</h3>
               <p>View common planning departure times for bundled routes and confirm final times with terminals or operators.</p>
               <Link to="/normalwaytimes" className="feature-link">
                 View Schedules
+                <ArrowRight size={16} />
+              </Link>
+            </div>
+            <div className="feature-card-large">
+              <div className="feature-image">
+                <MapPin size={64} className="placeholder-icon" />
+              </div>
+              <h3>🚏 Browse Stop Directory</h3>
+              <p>Explore major stops by province and district, with route-stage availability markers.</p>
+              <Link to="/stops" className="feature-link">
+                View Stops
                 <ArrowRight size={16} />
               </Link>
             </div>
