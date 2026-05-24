@@ -19,7 +19,9 @@ const Footer = () => {
             <h4>Plan</h4>
             <ul>
               <li><Link to="/normalfare">Fare Calculator</Link></li>
+              <li><Link to="/faretable">Fare Table</Link></li>
               <li><Link to="/findroutes">Route Search</Link></li>
+              <li><Link to="/stops">Stop Directory</Link></li>
               <li><Link to="/normalwaytimes">Timetables</Link></li>
               <li><Link to="/standnumbers">Stand Numbers</Link></li>
             </ul>
