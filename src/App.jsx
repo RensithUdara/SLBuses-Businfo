@@ -6,8 +6,10 @@ import Home from './pages/Home'
 import FindRoutes from './pages/FindRoutes'
 import NormalFare from './pages/NormalFare'
 import HighwayFare from './pages/HighwayFare'
+import FareTable from './pages/FareTable'
 import Timetables from './pages/Timetables'
 import StandNumbers from './pages/StandNumbers'
+import StopDirectory from './pages/StopDirectory'
 import About from './pages/About'
 import Contact from './pages/Contact'
 
@@ -22,8 +24,10 @@ function App() {
             <Route path="/findroutes" element={<FindRoutes />} />
             <Route path="/normalfare" element={<NormalFare />} />
             <Route path="/highwayfare" element={<HighwayFare />} />
+            <Route path="/faretable" element={<FareTable />} />
             <Route path="/normalwaytimes" element={<Timetables />} />
             <Route path="/standnumbers" element={<StandNumbers />} />
+            <Route path="/stops" element={<StopDirectory />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
