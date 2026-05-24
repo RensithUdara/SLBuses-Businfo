@@ -21,6 +21,12 @@
 - 🛣️ **Expressway Fare Calculator**  
   Estimate selected expressway route fares such as Southern Expressway, Outer Circular Expressway, and Colombo-Katunayake Expressway.
 
+- 📊 **Fare Table Lookup**  
+  Enter any official fare stage and compare prices across Normal, Semi-Luxury, Luxury / AC, and Super Luxury services.
+
+- 🚏 **Stop Directory**  
+  Browse major Sri Lankan stops by province and district, with markers for stops that already have route-stage data.
+
 - ⏱️ **Timetable Guidance**  
   View bundled common departure-time guidance for available routes.
 
@@ -52,6 +58,12 @@
 
 - 🛣️ **Highway Fare**  
   Expressway fare estimator for supported expressway routes.
+
+- 📊 **Fare Table**  
+  Official stage lookup and service-type fare comparison.
+
+- 🚏 **Stop Directory**  
+  Browse and search the local stop catalog by province, district, and stop name.
 
 - ⏱️ **Timetables**  
   Common departure-time guidance for bundled route data.
@@ -138,11 +150,13 @@ SLBuses/
     pages/
       About.jsx
       Contact.jsx
+      FareTable.jsx
       FindRoutes.jsx
       HighwayFare.jsx
       Home.jsx
       NormalFare.jsx
       StandNumbers.jsx
+      StopDirectory.jsx
       Timetables.jsx
 ```
 
@@ -150,6 +164,8 @@ SLBuses/
 
 - 📍 Location data is stored in `src/data/busData.js`.
 - 🎫 Fare-stage values are stored locally and reference NTC fare revision data used in the project.
+- 📊 Fare Table compares all supported service-type calculations for a selected stage.
+- 🚏 Stop Directory shows all bundled major stops and whether route-stage data exists for each stop.
 - 🚌 Route-stage matching currently works for bundled route examples.
 - 🧭 If no exact route-stage match exists, the app shows smart suggestions or lets the user enter an official stage manually.
 - ☎️ Official authority contacts are included for passenger follow-up and verification.
