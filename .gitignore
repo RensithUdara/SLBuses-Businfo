@@ -35,4 +35,6 @@ desktop.ini
 # Temporary files
 tmp/
 temp/
-config.bat
+.env
+.env.local
+.vscode/
