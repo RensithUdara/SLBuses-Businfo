@@ -35,4 +35,7 @@ desktop.ini
 # Temporary files
 tmp/
 temp/
-config.bat
+.env
+.env.*
+.env.local
+.env.production
